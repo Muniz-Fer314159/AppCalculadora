@@ -1,0 +1,55 @@
+# Pastas de build e binários
+bin/
+obj/
+
+# Configurações de usuário do Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Cache do Visual Studio
+*.cache
+*.db
+*.opendb
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Pasta de pacotes do NuGet
+packages/
+*.nupkg
+*.snupkg
+
+# Arquivos gerados pelo MAUI
+**/Resources/Raw/*
+**/Platforms/*/bin/
+**/Platforms/*/obj/
+
+# Build intermediário do Android
+*.apk
+*.aab
+
+# Build intermediário do iOS/MacCatalyst
+*.ipa
+*.dSYM
+
+# Arquivos de backup
+*~
+*.bak
+*.orig
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Cache do Rider/ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# Arquivos de testes gerados automaticamente
+TestResults/
